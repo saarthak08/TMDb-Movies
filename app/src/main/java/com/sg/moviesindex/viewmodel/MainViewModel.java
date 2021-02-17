@@ -6,7 +6,7 @@ import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 
-import com.sg.moviesindex.model.tmdb.Movie;
+import com.sg.moviesindex.model.Movie;
 import com.sg.moviesindex.repository.Repository;
 
 import java.util.List;

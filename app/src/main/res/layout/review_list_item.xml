@@ -5,7 +5,7 @@
     <data>
         <variable
             name="review"
-            type="com.sg.moviesindex.model.tmdb.Review"/>
+            type="com.sg.moviesindex.model.Review"/>
     </data>
     <androidx.cardview.widget.CardView
         android:orientation="vertical"

@@ -11,10 +11,10 @@ import android.widget.ProgressBar;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.sg.moviesindex.config.BuildConfigs;
-import com.sg.moviesindex.model.tmdb.DiscoversList;
-import com.sg.moviesindex.model.tmdb.Genre;
-import com.sg.moviesindex.model.tmdb.GenresList;
-import com.sg.moviesindex.model.tmdb.MoviesList;
+import com.sg.moviesindex.model.DiscoversList;
+import com.sg.moviesindex.model.Genre;
+import com.sg.moviesindex.model.GenresList;
+import com.sg.moviesindex.model.MoviesList;
 import com.sg.moviesindex.service.network.RetrofitInstance;
 import com.sg.moviesindex.service.network.TMDbService;
 import com.sg.moviesindex.view.MainActivity;

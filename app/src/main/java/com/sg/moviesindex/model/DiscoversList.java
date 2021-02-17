@@ -1,4 +1,4 @@
-package com.sg.moviesindex.model.tmdb;
+package com.sg.moviesindex.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;
@@ -8,7 +8,7 @@ import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 
-public class MoviesList implements Parcelable {
+public class DiscoversList implements Parcelable {
 
     @SerializedName("page")
     @Expose
@@ -21,31 +21,31 @@ public class MoviesList implements Parcelable {
     private Integer totalPages;
     @SerializedName("results")
     @Expose
-    private List<Movie> movies = null;
-    public final static Parcelable.Creator<MoviesList> CREATOR = new Creator<MoviesList>() {
+    private List<Discover> discovers = null;
+    public final static Parcelable.Creator<DiscoversList> CREATOR = new Creator<DiscoversList>() {
 
 
         @SuppressWarnings({
                 "unchecked"
         })
-        public MoviesList createFromParcel(Parcel in) {
-            return new MoviesList(in);
+        public DiscoversList createFromParcel(Parcel in) {
+            return new DiscoversList(in);
         }
 
-        public MoviesList[] newArray(int size) {
-            return (new MoviesList[size]);
+        public DiscoversList[] newArray(int size) {
+            return (new DiscoversList[size]);
         }
 
     };
 
-    protected MoviesList(Parcel in) {
+    protected DiscoversList(Parcel in) {
         this.page = ((Integer) in.readValue((Integer.class.getClassLoader())));
         this.totalResults = ((Integer) in.readValue((Integer.class.getClassLoader())));
         this.totalPages = ((Integer) in.readValue((Integer.class.getClassLoader())));
-        in.readList(this.movies, (Movie.class.getClassLoader()));
+        in.readList(this.discovers, (Discover.class.getClassLoader()));
     }
 
-    public MoviesList() {
+    public DiscoversList() {
     }
 
     public Integer getPage() {
@@ -72,19 +72,19 @@ public class MoviesList implements Parcelable {
         this.totalPages = totalPages;
     }
 
-    public List<Movie> getMovies() {
-        return movies;
+    public List<Discover> getResults() {
+        return discovers;
     }
 
-    public void setMovies(List<Movie> movies) {
-        this.movies = movies;
+    public void setResults(List<Discover> discovers) {
+        this.discovers = discovers;
     }
 
     public void writeToParcel(Parcel dest, int flags) {
         dest.writeValue(page);
         dest.writeValue(totalResults);
         dest.writeValue(totalPages);
-        dest.writeList(movies);
+        dest.writeList(discovers);
     }
 
     public int describeContents() {

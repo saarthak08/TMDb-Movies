@@ -22,7 +22,7 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import com.sg.moviesindex.R;
 import com.sg.moviesindex.adapter.MoviesAdapter;
 import com.sg.moviesindex.databinding.FragmentMoviesBinding;
-import com.sg.moviesindex.model.tmdb.Movie;
+import com.sg.moviesindex.model.Movie;
 import com.sg.moviesindex.service.FetchFirstTimeDataService;
 import com.sg.moviesindex.service.FetchMoreDataService;
 import com.sg.moviesindex.service.network.RetrofitInstance;

@@ -31,7 +31,7 @@
             <ImageView
                 android:layout_width="96dp"
                 android:layout_height="96dp"
-                android:src="@drawable/ic_bug_report_black_48dp" />
+                android:src="@drawable/ic_bug_report_black" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -68,7 +68,7 @@
                 android:insetBottom="0dp"
                 android:padding="0dp"
                 app:backgroundTint="#359AE8"
-                app:icon="@drawable/ic_autorenew_white_48dp"
+                app:icon="@drawable/ic_autorenew_white"
                 app:iconGravity="textStart"
                 app:iconPadding="0dp"
                 app:iconSize="36dp"

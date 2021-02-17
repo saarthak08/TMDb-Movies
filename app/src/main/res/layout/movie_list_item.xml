@@ -6,7 +6,7 @@
 <data>
     <variable
         name="movie"
-        type="com.sg.moviesindex.model.tmdb.Movie">
+        type="com.sg.moviesindex.model.Movie">
     </variable>
 </data>
 

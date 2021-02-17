@@ -1,7 +1,6 @@
 package com.sg.moviesindex.adapter;
 
 
-import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,8 +15,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.sg.moviesindex.R;
 import com.sg.moviesindex.databinding.CastListItemBinding;
-import com.sg.moviesindex.model.tmdb.Cast;
-import com.sg.moviesindex.model.tmdb.CastsList;
+import com.sg.moviesindex.model.Cast;
+import com.sg.moviesindex.model.CastsList;
 
 
 public class CastsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {

@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ScrollView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -23,7 +22,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.sg.moviesindex.R;
 import com.sg.moviesindex.adapter.MoviesAdapter;
 import com.sg.moviesindex.databinding.FragmentFavouriteMoviesBinding;
-import com.sg.moviesindex.model.tmdb.Movie;
+import com.sg.moviesindex.model.Movie;
 import com.sg.moviesindex.viewmodel.MainViewModel;
 
 import org.jetbrains.annotations.NotNull;

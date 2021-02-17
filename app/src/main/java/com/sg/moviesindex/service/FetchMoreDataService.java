@@ -7,10 +7,10 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.sg.moviesindex.adapter.MoviesAdapter;
 import com.sg.moviesindex.config.BuildConfigs;
-import com.sg.moviesindex.model.tmdb.Discover;
-import com.sg.moviesindex.model.tmdb.DiscoversList;
-import com.sg.moviesindex.model.tmdb.Movie;
-import com.sg.moviesindex.model.tmdb.MoviesList;
+import com.sg.moviesindex.model.Discover;
+import com.sg.moviesindex.model.DiscoversList;
+import com.sg.moviesindex.model.Movie;
+import com.sg.moviesindex.model.MoviesList;
 import com.sg.moviesindex.service.network.RetrofitInstance;
 import com.sg.moviesindex.service.network.TMDbService;
 import com.sg.moviesindex.utils.DiscoverToMovie;

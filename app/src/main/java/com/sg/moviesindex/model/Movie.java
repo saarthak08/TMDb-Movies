@@ -1,4 +1,4 @@
-package com.sg.moviesindex.model.tmdb;
+package com.sg.moviesindex.model;
 
 import android.annotation.SuppressLint;
 import android.os.Parcel;

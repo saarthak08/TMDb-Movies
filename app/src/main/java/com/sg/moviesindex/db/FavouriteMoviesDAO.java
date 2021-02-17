@@ -6,7 +6,7 @@ import androidx.room.Delete;
 import androidx.room.Insert;
 import androidx.room.Query;
 
-import com.sg.moviesindex.model.tmdb.Movie;
+import com.sg.moviesindex.model.Movie;
 
 import java.util.List;
 

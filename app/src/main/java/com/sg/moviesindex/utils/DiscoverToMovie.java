@@ -1,7 +1,7 @@
 package com.sg.moviesindex.utils;
 
-import com.sg.moviesindex.model.tmdb.Discover;
-import com.sg.moviesindex.model.tmdb.Movie;
+import com.sg.moviesindex.model.Discover;
+import com.sg.moviesindex.model.Movie;
 
 import java.util.ArrayList;
 

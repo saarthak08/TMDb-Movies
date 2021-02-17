@@ -1,6 +1,5 @@
 package com.sg.moviesindex.adapter;
 
-import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
@@ -10,8 +9,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.sg.moviesindex.R;
 import com.sg.moviesindex.databinding.ReviewListItemBinding;
-import com.sg.moviesindex.model.tmdb.Review;
-import com.sg.moviesindex.model.tmdb.ReviewsList;
+import com.sg.moviesindex.model.Review;
+import com.sg.moviesindex.model.ReviewsList;
 
 public class ReviewsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     private ReviewsList reviewsList;

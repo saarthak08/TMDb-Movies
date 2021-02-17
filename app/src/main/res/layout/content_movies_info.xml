@@ -8,7 +8,7 @@
     <data>
         <variable
             name="contentMovie"
-            type="com.sg.moviesindex.model.tmdb.Movie">
+            type="com.sg.moviesindex.model.Movie">
         </variable>
         <variable
             name="checkBox"
@@ -181,28 +181,6 @@
                 app:sparkbutton_primaryColor="@color/heart_primary_color"
                 app:sparkbutton_secondaryColor="@color/heart_secondary_color" />
 
-
-            <br.com.simplepass.loadingbutton.customViews.CircularProgressButton
-                android:id="@+id/btn_id"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="64dp"
-                android:layout_marginTop="24dp"
-                android:fontFamily="@font/open_sans"
-                android:paddingHorizontal="16dp"
-                android:paddingVertical="16dp"
-                android:text="Download Torrent"
-                android:textColor="@android:color/white"
-                android:textSize="14sp"
-                app:initialCornerAngle="50dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.534"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/spark_button"
-                app:layout_constraintTop_toBottomOf="@+id/tvLanguage"
-                app:spinning_bar_color="#FFF"
-                app:spinning_bar_padding="6dp"
-                app:spinning_bar_width="4dp" />
 
             <TextView
                 android:id="@+id/tvOverview"

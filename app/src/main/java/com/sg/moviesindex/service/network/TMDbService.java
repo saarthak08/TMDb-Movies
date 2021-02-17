@@ -1,11 +1,11 @@
 package com.sg.moviesindex.service.network;
 
-import com.sg.moviesindex.model.tmdb.CastsList;
-import com.sg.moviesindex.model.tmdb.DiscoversList;
-import com.sg.moviesindex.model.tmdb.GenresList;
-import com.sg.moviesindex.model.tmdb.Movie;
-import com.sg.moviesindex.model.tmdb.MoviesList;
-import com.sg.moviesindex.model.tmdb.ReviewsList;
+import com.sg.moviesindex.model.CastsList;
+import com.sg.moviesindex.model.DiscoversList;
+import com.sg.moviesindex.model.GenresList;
+import com.sg.moviesindex.model.Movie;
+import com.sg.moviesindex.model.MoviesList;
+import com.sg.moviesindex.model.ReviewsList;
 
 import io.reactivex.Observable;
 import retrofit2.http.GET;

@@ -6,7 +6,7 @@ import androidx.lifecycle.LiveData;
 
 import com.sg.moviesindex.db.Database;
 import com.sg.moviesindex.db.FavouriteMoviesDAO;
-import com.sg.moviesindex.model.tmdb.Movie;
+import com.sg.moviesindex.model.Movie;
 
 import java.util.List;
 
